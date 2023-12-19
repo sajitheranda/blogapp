@@ -1,0 +1,131 @@
+.nav1{
+    background-color: blue;
+    color: aliceblue;
+}
+
+
+
+.brand1 {
+    color: #fff; /* Change this color to your desired text color */
+    margin-left: 10px;
+    text-decoration: none;
+}
+.brand1:visited {
+    color: white; /* Change this color to the visited color you want */
+    text-decoration: none;
+}
+/* Hover state */
+.brand1:hover {
+    color: #ffcc00; /* Change this color to the hover color you want */
+    text-decoration: none; /* Optional: Remove underline on hover */
+}
+
+.brand2{
+    color: aliceblue;
+}
+.brand2:visited {
+    color: white; /* Change this color to the visited color you want */
+}
+/* Hover state */
+.brand2:hover {
+    color: #ffcc00; /* Change this color to the hover color you want */
+    text-decoration: none; /* Optional: Remove underline on hover */
+}
+.card1{
+    color: black;
+    background-color: orange;
+}
+
+
+.brand3{
+    color: blue;
+
+    background-color: white;
+}
+.brand3:visited {
+    color: blue;/* Change this color to the visited color you want */
+}
+/* Hover state */
+.brand3:hover {
+    color: blue;
+     /* Change this color to the hover color you want */
+    text-decoration: none; /* Optional: Remove underline on hover */
+}
+
+
+.poster{
+    background-color:green;
+    border-radius: 20px;
+}
+
+.post-title{
+    color: #fff;
+}
+
+.post-description{
+    color: #e28048;
+    font-weight: 500;
+}
+
+
+.newposter {
+    border-color: green;
+    border-width: 3px;
+    border-style: solid; /* Specify the border style */
+    border-radius: 20px;
+}
+
+
+.newpost-description{
+    font-weight: 500;
+}
+
+.postershow-title{
+    background-color: green;
+    color:#fff;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.postershow-description{
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.allpost{
+    color: #b64a0b;
+}
+
+.thread1{
+    background-color: rgb(8, 8, 103);
+    color: #fff;
+}
+
+a {
+    text-decoration: none; /* Removing underline decoration from anchor elements */
+    color: #fff;
+  }
+
+
+  a:hover {
+    text-decoration: none; /* Applying underline on hover */
+    /* Changing text color on hover */
+  }
+
+  .edit-th{
+    background-color: #df5709;
+    
+  }
+
+
+  .delete-th{
+    background-color: #ee2f09;
+    
+  }
+
+  .deletebutton{
+    color: #fff;
+  }
+
+
+

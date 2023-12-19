@@ -1,0 +1,22 @@
+composer create-project laravel/laravel 
+php artisan serve
+
+php artisan make:model ModelName -m
+php artisan make:controller ControllerName
+php artisan make:middleware IsAdmin
+
+create table-----
+php artisan migrate
+--refresh tables
+php artisan migrate:refresh
+
+//using boostrap
+composer require laravel/ui
+php artisan ui bootstrap --auth
+npm install && npm run dev
+php artisan migrate
+php artisan serve
+
+composer require laravel/breeze --dev
+php artisan breeze:install
+npm install && npm run dev

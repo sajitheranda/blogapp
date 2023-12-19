@@ -1,0 +1,33 @@
+.nav1{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.brand1 {
+    color: #fff; /* Change this color to your desired text color */
+    margin-left: 10px;
+    text-decoration: none;
+}
+.brand1:visited {
+    color: white; /* Change this color to the visited color you want */
+    text-decoration: none;
+}
+/* Hover state */
+.brand1:hover {
+    color: #ffcc00; /* Change this color to the hover color you want */
+    text-decoration: none; /* Optional: Remove underline on hover */
+}
+
+.brand2{
+    color: aliceblue;
+}
+.brand2:visited {
+    color: white; /* Change this color to the visited color you want */
+}
+/* Hover state */
+.brand2:hover {
+    color: #ffcc00; /* Change this color to the hover color you want */
+    text-decoration: none; /* Optional: Remove underline on hover */
+}
+
+
