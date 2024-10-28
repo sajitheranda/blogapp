@@ -140,7 +140,7 @@ The application is styled with **Bootstrap**, making it fully responsive and com
 
 | <img src="https://github.com/user-attachments/assets/26b4cb4e-f6a5-407d-b28a-703e8ee4884b" alt="Welcome Page Mobile" width="300" /> | <img src="https://github.com/user-attachments/assets/3798cd97-abf6-4ba8-8c00-1f310995fbed" alt="Add New Post Mobile" width="300" /> | <img src="https://github.com/user-attachments/assets/6bd85e59-3e46-46e9-9267-c487dad5d281" alt="All Posts in Mobile" width="300" /> |
 |:--:|:--:|:--:|
-| **Figure 9:** Welcome Page Mobile | **Figure 10:** Add New Post Mobile | **Figure 1:** All Posts in Mobile |
+| **Figure 9:** Welcome Page Mobile | **Figure 10:** Add New Post Mobile | **Figure 11:** All Posts in Mobile |
 
 ## Usage
 
