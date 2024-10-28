@@ -113,14 +113,26 @@ The application ensures secure handling of post creation, editing, and deletion 
    - Allows admins to edit or delete any post, offering full control over content management.
 
 6. **Sign In Page**:
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/22022d56-779a-48cc-8e39-df14e7d73b8d" alt="Login Page" height="400">
+  <p><em>Figure 7: Login Page</em></p>
+</div>
+
    - Allows existing users to log in to the application.
    - Ensures secure access based on user credentials.
 
-7. **Register Page**:
+8. **Register Page**:
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f1abe74f-483f-4d34-ba6d-94eebcfbc806" alt="Register Page" height="400">
+  <p><em>Figure 8: Register Page</em></p>
+</div>
+
    - Allows new users to register an account in the application.
    - Provides access to signed-in user features after registration.
 
-8. **Logout**:
+10. **Logout**:
    - Enables users to securely log out of the application and terminate their session.
 
 ### Responsive Design
