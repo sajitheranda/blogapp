@@ -6,6 +6,7 @@ A Laravel-based blog post application with role-based access and permissions for
 
 - [Features](#features)
   - [User Roles](#user-roles)
+  - [Secure Post Management](#secure-post-management)
   - [Pages](#pages)
   - [Responsive Design](#responsive-design)
 - [Installation](#installation)
@@ -54,10 +55,27 @@ A Laravel-based blog post application with role-based access and permissions for
 The application ensures secure handling of post creation, editing, and deletion with strict role-based permissions:
 
 - **Add New Post**: Only signed users and admin users can add new posts, with validation checks to ensure that content meets required standards.
+  
+    <div align="center">
+      <img src="https://github.com/user-attachments/assets/59dd1a97-7792-4231-bd74-df02a0e89b48" alt="Page 8 - Adding New Post" height="400">
+      <p><em>Figure 5: Adding a New Post</em></p>
+    </div>
 
 - **Edit Post**: Users can only edit their own posts, while admins can edit any post. Permissions are enforced to prevent unauthorized edits, ensuring content integrity and security.
 
+    <div align="center">
+      <img src="https://github.com/user-attachments/assets/93c51245-ec74-4817-b511-ca8df758686b" alt="Page 4 - Edit a Post" height="400">
+      <p><em>Figure 6: Edit a Post</em></p>
+    </div>
+
 - **Delete Post**: Similar to editing, users can only delete their own posts, while admins have full control to delete any post. This role-based access control prevents accidental or malicious deletions by unauthorized users.
+
+     <div align="center">
+      <img src="https://github.com/user-attachments/assets/03d2d0d0-e930-4b1a-84d3-c27267df756e" alt="Page 5 - Delete a Post" height="400">
+      <p><em>Figure 7: Delete a Post</em></p>
+     </div>
+
+  
 ### Pages
 
 1. **Welcome Page**:
