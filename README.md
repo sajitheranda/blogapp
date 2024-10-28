@@ -17,15 +17,33 @@ A Laravel-based blog post application with role-based access and permissions for
 ### User Roles
 
 1. **Normal Users**:
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5dc93f35-62a6-476b-9a0e-542ee765729f" alt="Page 6 - Normal User Functions" height="400">
+  <p><em>Figure 5: Normal User Functions</em></p>
+</div>
+
    - Can view all posts on the **Welcome** page.
    - Cannot create, edit, or delete any posts.
 
 2. **Signed Users**:
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e949f628-2303-47f3-9752-6aab40941b61" alt="Page 6 - Normal User Signed Functions" height="400">
+  <p><em>Figure 6: Normal Signed User Functions</em></p>
+</div>
+
    - Can view all posts on the **Welcome** page.
    - Can access the **My Posts** page to view, create, edit, and delete only their own posts.
    - Cannot access posts created by other users on the **My Posts** page.
    
 3. **Admin Users**:
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/544da992-5351-4621-82b6-e8662feaab3d" alt="Page 7 - Admin User Functions" height="400">
+  <p><em>Figure 7: Admin User Functions</em></p>
+</div>
+
    - Can view all posts on the **Welcome** page.
    - Can access the **My Posts** page to view, create, edit, and delete their own posts.
    - Can access the **All Posts** page to view, edit, or delete any post created by any user.
