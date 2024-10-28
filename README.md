@@ -7,6 +7,7 @@ A Laravel-based blog post application with role-based access and permissions for
 - [Features](#features)
   - [User Roles](#user-roles)
   - [Pages](#pages)
+  - [Responsive Design](#responsive-design)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
@@ -76,6 +77,10 @@ A Laravel-based blog post application with role-based access and permissions for
 
 6. **Logout**:
    - Enables users to securely log out of the application and terminate their session.
+
+### Responsive Design
+
+The application is styled with **Bootstrap**, making it fully responsive and compatible with any type of device or screen size. Users can experience seamless functionality whether on a desktop, tablet, or mobile device.
 
 ## Installation
 
