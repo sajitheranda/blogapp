@@ -21,7 +21,7 @@
        
         
         <nav class="navbar navbar-expand-lg p-2 navbar-dark nav1">
-        <h2><a class="navbar-brand  brand1 pl-3" href="{{url('/')}}">Blog Poster</a></h2>
+        <h2><a class="navbar-brand  brand1 pl-3" href="{{url('/')}}">Blogify</a></h2>
         <h4 class="text-warning">User</h4>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
