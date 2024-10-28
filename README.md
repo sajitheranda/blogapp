@@ -9,10 +9,9 @@ A Laravel-based blog post application with role-based access and permissions for
   - [Secure Post Management](#secure-post-management)
   - [Pages](#pages)
   - [Responsive Design](#responsive-design)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [License](#license)
+- [Technologies](#technologies)
+- [Installation](#installation)
 
 ## Features
 
@@ -143,10 +142,45 @@ The application is styled with **Bootstrap**, making it fully responsive and com
 |:--:|:--:|:--:|
 | **Figure 9:** Welcome Page Mobile | **Figure 10:** Add New Post Mobile | **Figure 1:** All Posts in Mobile |
 
+## Usage
+
+After the application is running:
+
+- **Normal Users**:
+  - View all blog posts on the **Welcome** page without needing to log in.
+
+- **Signed Users**:
+  - Register or log in to access additional features on the **My Posts** page, where they can manage their own posts.
+
+- **Admin Users**:
+  - After logging in, they have access to all posts and the ability to manage any post on the **All Posts** page.
+
+## Technologies
+
+- **Backend**: Laravel
+- **Database**: MySQL (or any database supported by Laravel)
+- **Frontend**: Laravel Blade files (CSS, HTML)
 
 ## Installation
 
-1. **Clone the repository**:
+1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/blog-post-app.git
    cd blog-post-app
+
+2. Install dependencies:
+   ```bash
+   composer install
+
+3. Generate application key:
+   ```bash
+   php artisan key:generate
+
+4. Run migrations:
+   ```bash
+   php artisan migrate
+
+5. Start the development server:
+   ```bash
+   php artisan migrate
+
